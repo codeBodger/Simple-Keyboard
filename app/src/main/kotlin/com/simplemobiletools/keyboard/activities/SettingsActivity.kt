@@ -9,8 +9,8 @@ import com.simplemobiletools.commons.helpers.isTiramisuPlus
 import com.simplemobiletools.commons.models.RadioItem
 import com.simplemobiletools.keyboard.R
 import com.simplemobiletools.keyboard.extensions.config
-import com.simplemobiletools.keyboard.extensions.getKeyboardLanguageText
 import com.simplemobiletools.keyboard.extensions.getKeyboardLanguages
+import com.simplemobiletools.keyboard.extensions.getKeyboardLayoutsNames
 import com.simplemobiletools.keyboard.helpers.*
 import kotlinx.android.synthetic.main.activity_settings.*
 import java.util.*
@@ -117,13 +117,13 @@ class SettingsActivity : SimpleActivity() {
     }
 
     private fun setupKeyboardLanguage() {
-        settings_keyboard_language.text = getKeyboardLanguageText(config.keyboardLanguage)
+//        settings_keyboard_language.text = getKeyboardLanguageText(config.keyboardLanguage)
         settings_keyboard_language_holder.setOnClickListener {
-            val items = getKeyboardLanguages()
-            RadioGroupDialog(this@SettingsActivity, items, config.keyboardLanguage) {
-                config.keyboardLanguage = it as Int
-                settings_keyboard_language.text = getKeyboardLanguageText(config.keyboardLanguage)
-            }
+            val items = getKeyboardLayoutsNames()
+//            RadioGroupDialog(this@SettingsActivity, items, config.keyboardLanguage) {
+//                config.keyboardLanguage = it as Int
+////                settings_keyboard_language.text = getKeyboardLanguageText(config.keyboardLanguage)
+//            }
         }
     }
 

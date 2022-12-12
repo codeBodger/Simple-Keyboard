@@ -184,3 +184,10 @@ fun Context.getKeyboardLanguageText(language: Int): String {
     }
 }
 
+fun Context.getKeyboardLayoutsNames(): ArrayList<String> {
+    val out = ArrayList<String>()
+    config.keyboardLayouts.forEach {
+        out.add(MyKeyboard.getRMSLattr(it, "keyboardName", null) ?: "Undefined Name")
+    }
+    return out
+}

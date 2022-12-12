@@ -36,6 +36,11 @@
     <string name="show_numbers_row">Show numbers on a separate row</string>
     <!-- Emojis -->
     <string name="emojis">Emojis</string>
+    <string name="create_a_new_keyboard_layout">Create a New Keyboard Layout</string>
+    <string name="edit_an_existing_keyboard">Edit an Existing Keyboard</string>
+    <string name="manage_keyboard_layouts">Manage Keyboard Layouts</string>
+    <string name="keyboard_layout_manager">Keyboard Layout Manager</string>
+    <string name="create_a_new_layout">Create a New Layout</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
