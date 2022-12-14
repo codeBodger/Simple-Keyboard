@@ -1,4 +1,4 @@
-//package com.simplemobiletools.keyboard.activities
+package com.simplemobiletools.keyboard.activities
 //
 //import android.content.Context
 //import android.view.LayoutInflater
