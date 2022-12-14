@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/keyboard_layout_entry"-->
+<!--        style="@style/SettingsHolderCheckboxStyle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/ripple_background"-->
+<!--        android:padding="@dimen/medium_margin"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        <com.simplemobiletools.commons.views.MyTextView-->
+<!--            android:id="@+id/keyboard_layout_name"-->
+<!--            style="@style/SettingsTextLabelStyle"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            tools:ignore="RelativeOverlap" />-->
+
+<!--        <com.simplemobiletools.commons.views.MyAppCompatCheckbox-->
+<!--            android:id="@+id/choose_layout_checkbox"-->
+<!--            style="@style/SettingsCheckboxStyle"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:layout_alignParentEnd="true" />-->
+
+<!--    </RelativeLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

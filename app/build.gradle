@@ -63,6 +63,9 @@ android {
     }
     namespace 'com.simplemobiletools.keyboard'
 
+    dataBinding{
+        enabled=true
+    }
 }
 
 dependencies {
@@ -81,4 +84,6 @@ dependencies {
 
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'androidx.recyclerview:recyclerview-selection:1.1.0'
+
+//    implementation 'com.duolingo.open:rtl-viewpager:2.0.0'
 }
